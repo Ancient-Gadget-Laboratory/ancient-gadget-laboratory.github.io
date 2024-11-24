@@ -2,14 +2,49 @@
 <html>
 <head>
     <title> OVOLab </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Art</title>
+    <style>
+        body {
+            /* font-family: perpetua; */
+            font-family: sitka subheading;
+            background-color: #222;
+            color: rgb(255, 255, 255);
+            font-size: 22px;
+            margin: 0;
+            /* display: flex; */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+            height: 100vh; /* 占满整个视口高度 */
+        }
+        pre {
+            text-align: center;
+            font-size: 18px; /* 字体大小 */
+        }
+        .container {
+            margin: auto;
+            width: 85%; /* 宽度为视口的 80% */
+            max-width: 800px; /* 最大宽度限制 */
+            background: #222;
+            padding: 20px; /* 内边距 */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+        }
+    </style>
 </head>
-<body>
-    <div style="text-align: center; margin: 150px;">
-        <h1> This is a test. </h1>
-        <p> Hello! Welcome to OVOLab. </p>
-    </div>
 
-    <div style="margin-left: 200px; margin-right: 200px;">
+
+<body>
+    <pre class="container">
+
+
+╔═╗╦    ╦╔═╗┬    ┌─┐┌┐
+  ║  ║╚╗╔╝║  ║│    ├─┤├┴┐
+  ╚═╝  ╚╝  ╚═╝┴─┘┴  ┴└─┘
+
+    </pre>
+
+    <div style="line-height: 1.25;" class="container">
         <h2> About </h2>
         <p> OVOLab is a mechanical engineering research group interested in complex systems. An official name as <i>Ancient Gadget Laboratory</i> is assigned for GitHub organization account.</p>
     </div>
