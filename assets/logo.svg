@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: CascadiaCodeRoman-Bold, 'Cascadia Code';
+        font-size: 24px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+        letter-spacing: .1em;
+      }
+
+      .cls-2 {
+        fill: #222;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="-195.5" y="-295.5" width="791" height="791"/>
+    <path d="M595-295V495H-195V-295h790M596-296H-196V496h792V-296h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(43.88 81.75)"><tspan x="0" y="0" xml:space="preserve">╔═╗╦  ╦╔═╗┬  ┌─┐┌┐</tspan><tspan x="0" y="28" xml:space="preserve">║ ║╚╗╔╝║ ║│  ├─┤├┴┐</tspan><tspan x="0" y="56">╚═╝ ╚╝ ╚═╝┴─┘┴ ┴└─┘</tspan></text>
+</svg>
