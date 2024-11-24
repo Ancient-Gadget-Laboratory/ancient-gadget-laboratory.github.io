@@ -34,10 +34,17 @@
             /* 宽度为视口的 80% */
             max-width: 800px;
             /* 最大宽度限制 */
-            background: #222;
+            background: rgb(34, 34, 34);
             padding: 20px;
             /* 内边距 */
             /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+        }
+
+        .img {
+            display: grid;
+            width: 100%;
+            height: auto;
+            place-items: center;
         }
     </style>
 </head>
@@ -49,10 +56,11 @@
     ║ ║╚╗╔╝║ ║│  ├─┤├┴┐
     ╚═╝ ╚╝ ╚═╝┴─┘┴ ┴└─┘
     </pre> -->
-    <pre>
+    <div class="img">
         <img src="/assets/logo.svg" alt="ASCII ART" width="40%">
-    </pre>
+    </div>
     <div style="line-height: 1.25;" class="container">
+
         <h2> About </h2>
         <p> OVOLab is a mechanical engineering research group interested in complex systems. An official name as
             <i>Ancient Gadget Laboratory</i> is assigned for GitHub organization account.
