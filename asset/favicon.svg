@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270">
   <defs>
     <style>
       .cls-1 {
@@ -18,7 +18,12 @@
       }
     </style>
   </defs>
-  <circle class="cls-1" cx="135" cy="135" r="72"/>
-  <circle class="cls-1" cx="135" cy="135" r="108"/>
-  <path class="cls-2" d="M49,39c29.57,74.41,66.89,168.97,85.71,216,13.52-33.98,67.52-168.92,86.29-216"/>
+  <g id="bg">
+    <rect x="-85" y="-115" width="1500" height="500"/>
+  </g>
+  <g id="logo">
+    <circle class="cls-1" cx="135" cy="135" r="72"/>
+    <circle class="cls-1" cx="135" cy="135" r="108"/>
+    <path class="cls-2" d="M49,39c29.57,74.41,66.89,168.97,85.71,216,13.52-33.98,67.52-168.92,86.29-216"/>
+  </g>
 </svg>
